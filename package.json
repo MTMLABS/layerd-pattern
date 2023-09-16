@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nodemon src/app.js",
     "format": "prettier --write *.js **/*.js",
-    "test": "your-test-command-here"
+    "test": "jest"
   },
   "dependencies": {
     "@prisma/client": "^5.1.1",
@@ -15,8 +15,11 @@
     "winston": "^3.10.0"
   },
   "devDependencies": {
+    "jest": "^29.7.0",
     "nodemon": "^3.0.1",
     "prettier": "^3.0.1",
     "prisma": "^5.1.1"
-  }
+  },
+  "repository": "git@github.com:MTMLABS/layerd-pattern.git",
+  "author": "MTMLABS <gusdnjs14@gmail.com>"
 }
